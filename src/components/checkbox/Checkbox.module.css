@@ -1,0 +1,86 @@
+/* .checkbox {
+    display: none;
+}
+
+.customCheckbox {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 2px solid var(--blue);
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox:hover + .customCheckbox {
+    background-color: color-mix(in srgb, var(--blue-dark) 20%, transparent);
+}
+
+.checkbox:checked + .customCheckbox {
+    background: var(--purple-dark);
+    border-color: var(--purple-dark);
+}
+
+.checkbox:checked:hover + .customCheckbox {
+    background: var(--purple);
+    border-color: var(--purple);
+} */
+
+/* 
+.icon {
+    width: 12px;
+    height: 12px;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+  
+.checkbox:checked + .customCheckbox .icon {
+    opacity: 1;
+} */
+
+.checkbox {
+    display: none;
+}
+
+.customCheckboxUnchecked {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 2px solid var(--blue);
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customCheckboxUnchecked:hover {
+    background-color: color-mix(in srgb, var(--blue-dark) 20%, transparent);
+}
+
+.customCheckboxChecked {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 2px solid var(--blue);
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--purple-dark);
+    border-color: var(--purple-dark);
+}
+
+.customCheckboxChecked:hover {
+    background: var(--purple);
+    border-color: var(--purple);
+}

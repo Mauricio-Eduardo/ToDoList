@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    background: var(--gray-500);
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.container p {
+    flex-grow: 1;
+    min-width: 0;
+    overflow-wrap: break-word;
+}
+
+.taskCompleted {
+    color: var(--gray-300);
+    text-decoration: line-through;
+}
+
+.iconContainer {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    transition: opacity 0.2s ease;
+}
+
+.icon {
+    color: var(--gray-300);
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
+.iconContainer:hover {
+    background-color: var(--gray-400);
+    cursor: pointer;
+}
+
+.iconContainer:hover .icon {
+    color: var(--danger);
+}
