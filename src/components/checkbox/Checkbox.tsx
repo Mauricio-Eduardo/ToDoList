@@ -8,12 +8,6 @@ interface CheckboxProps {
 }
 
 export function Checkbox(props: CheckboxProps) {
-  // const [isChecked, setIsChecked] = useState(false);
-
-  // function handleCheckboxClick() {
-  //   setIsChecked(!isChecked);
-  // }
-
   return (
     <div>
       <label>
